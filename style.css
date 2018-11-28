@@ -1,0 +1,62 @@
+
+/* styles for body */
+body{
+    background-image:url(./bg.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover; 
+    font-family: Poppins;
+}
+ /* styles for carousel */
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-40%);
+}
+#heading{
+    font-size:400%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+    color:aqua;
+} 
+/* styles for jumbotron */
+.jumbotron{
+    background-color: transparent;
+    border: 3px solid rgb(175, 142, 60);
+}
+/* Styles for button */
+.btn{
+    background-color: rgb(175, 142, 60);
+    color: pink;
+}
+.btn:hover{
+    background-color: rgb(175, 142, 60);
+    color: pink;
+}
+/* styles for quote */
+.font-size{
+    font-size: 50px;
+    color:rgb(175, 142, 60); 
+}
+/* styles for icons */
+.social a {
+    display: inline;
+    margin: 3%;
+    font-size: 4.5em;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-twitter{
+    color: #00aced;
+}
+.fa-instagram{
+    color: #517fa8;
+}
+.fa-youtube{
+    color: #bb0000;
+}
+.fa-facebook:hover, .fa-google-plus-g:hover, .fa-instagram:hover, .fa-instagram:hover, .fa-twitter:hover, .fa-youtube:hover{
+color: #d5d5d5;
+}
+
